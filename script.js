@@ -33,7 +33,7 @@ let auteur      = document.getElementById("auteur");
 let nouveau     = document.getElementById("nouveau");
 
 nouveau.addEventListener('click', () => {
-  let nbAleatoire = getRandomInt(citations.length);
+  nbAleatoire = getRandomInt(citations.length);
   citation.textContent = citations[nbAleatoire][0];
   auteur.textContent = citations[nbAleatoire][1];
 });
